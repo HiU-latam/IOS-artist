@@ -24,10 +24,13 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
+  - DropDown (2.0.2)
   - FBSDKCoreKit (4.29.0):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.29.0):
     - FBSDKCoreKit
+  - SCRecorder (2.7.0)
+  - SlideMenuControllerSwift (4.0.0)
 
 DEPENDENCIES:
   - AWSAuthCore (~> 2.6.1)
@@ -35,6 +38,9 @@ DEPENDENCIES:
   - AWSFacebookSignIn (~> 2.6.1)
   - AWSPinpoint (~> 2.6.1)
   - AWSUserPoolsSignIn (~> 2.6.1)
+  - DropDown
+  - SCRecorder
+  - SlideMenuControllerSwift
 
 SPEC CHECKSUMS:
   AWSAuthCore: 4c882c1371cd0907414ff25c29e97fda4a69b57d
@@ -46,9 +52,12 @@ SPEC CHECKSUMS:
   AWSPinpoint: 90c17071a15a4d7834039f0b93ca5e880a44297b
   AWSUserPoolsSignIn: b8ce8403341bdcf1fe4fb58b28f727043f2476fc
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DropDown: 75562633a203f57a917021b4edb96c76f293b0ec
   FBSDKCoreKit: 6f139173dc63a1deaff4430a55f2fe5bb222d2af
   FBSDKLoginKit: 56a057ca6822535ea0faa25f57a7c41edb697fd4
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
+  SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
 
-PODFILE CHECKSUM: 3df03143ec3898631df2bbaffba9820e15c8a31e
+PODFILE CHECKSUM: e2ab6eed6d3d7d91ef7255753a45948ddbf08e7a
 
 COCOAPODS: 1.3.1

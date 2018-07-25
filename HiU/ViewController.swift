@@ -9,7 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet var splashView: UIImageView! 
+    
+    //MARK: DECLARATION
+    var counter = 0
+    var timer = Timer()
+    
+    @IBOutlet var splashView: UIImageView!
+    
+    //MARK: OVERRIDE METHODS
     override func viewDidLoad() {
        super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -35,23 +42,44 @@ class ViewController: UIViewController {
         splashView.animationRepeatCount = 1
         // Start the animation
         splashView.startAnimating()
-
-
-//
-//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "Login") as! Login
-//        self.present(vc, animated: true, completion: nil)
         
-        let viewController:UIViewController = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "Login")   
-        self.present(viewController, animated: false, completion: nil)
-//        let storyboard = UIStoryboard(name: "Login", bundle: nil)
-//        let controller = storyboard.instantiateViewController(withIdentifier: "Login")
-//        self.present(controller, animated: true, completion: nil)
+        runTimer()
         
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    //MARK: SET TIMER
+    func runTimer() {
+        NSLog("runTimer")
+        timer.invalidate()
+        timer = Timer.scheduledTimer(timeInterval: 0.5, target: self, selector: #selector(update), userInfo: nil, repeats: true)
+    }
+    
+    func update(){
+        counter += 1
+        NSLog(timer.isValid ? "YES" : "NO")
+        NSLog("\(counter)")
+        if counter >= 18 {
+            timer.invalidate()
+            let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Login")
+            self.navigationController?.pushViewController(viewController, animated: true)
+        }
     }
 
 

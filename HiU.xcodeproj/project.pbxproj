@@ -437,6 +437,34 @@
 		46E290401F70BB7B0019CE74 /* logo5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 46E28E9E1F70BB7A0019CE74 /* logo5.gif */; };
 		46FCB1891F841FB500A65499 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FCB1881F841FB500A65499 /* Login.storyboard */; };
 		46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCB1F01F8D716900A65499 /* Swift+Gif.swift */; };
+		86AF18B5210830DF00A28AD3 /* RequestModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18B4210830DF00A28AD3 /* RequestModal.swift */; };
+		86AF18CA210830FE00A28AD3 /* Nanami-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18B7210830FE00A28AD3 /* Nanami-Black.otf */; };
+		86AF18CB210830FE00A28AD3 /* Nanami-BlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18B8210830FE00A28AD3 /* Nanami-BlackOblique.otf */; };
+		86AF18CC210830FE00A28AD3 /* Nanami-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18B9210830FE00A28AD3 /* Nanami-Bold.otf */; };
+		86AF18CD210830FE00A28AD3 /* Nanami-BoldOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18BA210830FE00A28AD3 /* Nanami-BoldOblique.otf */; };
+		86AF18CE210830FE00A28AD3 /* Nanami-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18BB210830FE00A28AD3 /* Nanami-Book.otf */; };
+		86AF18CF210830FE00A28AD3 /* Nanami-BookOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18BC210830FE00A28AD3 /* Nanami-BookOblique.otf */; };
+		86AF18D0210830FE00A28AD3 /* Nanami-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18BD210830FE00A28AD3 /* Nanami-ExtraLight.otf */; };
+		86AF18D1210830FE00A28AD3 /* Nanami-ExtraLightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18BE210830FE00A28AD3 /* Nanami-ExtraLightOblique.otf */; };
+		86AF18D2210830FE00A28AD3 /* Nanami-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18BF210830FE00A28AD3 /* Nanami-Heavy.otf */; };
+		86AF18D3210830FE00A28AD3 /* Nanami-HeavyOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C0210830FE00A28AD3 /* Nanami-HeavyOblique.otf */; };
+		86AF18D4210830FE00A28AD3 /* Nanami-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C1210830FE00A28AD3 /* Nanami-Light.otf */; };
+		86AF18D5210830FE00A28AD3 /* Nanami-LightOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C2210830FE00A28AD3 /* Nanami-LightOblique.otf */; };
+		86AF18D6210830FE00A28AD3 /* Nanami-OutlineOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C3210830FE00A28AD3 /* Nanami-OutlineOblique.otf */; };
+		86AF18D7210830FE00A28AD3 /* Nanami-OutlineRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C4210830FE00A28AD3 /* Nanami-OutlineRegular.otf */; };
+		86AF18D8210830FE00A28AD3 /* Nanami-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C5210830FE00A28AD3 /* Nanami-Regular.otf */; };
+		86AF18D9210830FE00A28AD3 /* Nanami-RegularOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C6210830FE00A28AD3 /* Nanami-RegularOblique.otf */; };
+		86AF18DA210830FE00A28AD3 /* Nanami-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C7210830FE00A28AD3 /* Nanami-Thin.otf */; };
+		86AF18DB210830FE00A28AD3 /* Nanami-ThinOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C8210830FE00A28AD3 /* Nanami-ThinOblique.otf */; };
+		86AF18DC210830FE00A28AD3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18C9210830FE00A28AD3 /* Localizable.strings */; };
+		86AF18E02108310C00A28AD3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18DE2108310C00A28AD3 /* Helper.swift */; };
+		86AF18E12108310C00A28AD3 /* NiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18DF2108310C00A28AD3 /* NiceButton.swift */; };
+		86AF18E52108311500A28AD3 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18E32108311500A28AD3 /* RequestTableViewCell.swift */; };
+		86AF18E62108311500A28AD3 /* SettingsProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18E42108311500A28AD3 /* SettingsProfileTableViewCell.swift */; };
+		86AF18EC2108311E00A28AD3 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18E82108311E00A28AD3 /* MenuViewController.swift */; };
+		86AF18ED2108311E00A28AD3 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18E92108311E00A28AD3 /* RecordVideoViewController.swift */; };
+		86AF18EE2108311E00A28AD3 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18EA2108311E00A28AD3 /* RequestsViewController.swift */; };
+		86AF18EF2108311E00A28AD3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18EB2108311E00A28AD3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -899,6 +927,34 @@
 		46FCB1F01F8D716900A65499 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		580A6A0E23B80C75091F8D26 /* Pods-HiU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.debug.xcconfig"; sourceTree = "<group>"; };
 		645E9C2DC0FA5C51471B62B7 /* Pods-HiUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiUTests/Pods-HiUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86AF18B4210830DF00A28AD3 /* RequestModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModal.swift; sourceTree = "<group>"; };
+		86AF18B7210830FE00A28AD3 /* Nanami-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Black.otf"; sourceTree = "<group>"; };
+		86AF18B8210830FE00A28AD3 /* Nanami-BlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-BlackOblique.otf"; sourceTree = "<group>"; };
+		86AF18B9210830FE00A28AD3 /* Nanami-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Bold.otf"; sourceTree = "<group>"; };
+		86AF18BA210830FE00A28AD3 /* Nanami-BoldOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-BoldOblique.otf"; sourceTree = "<group>"; };
+		86AF18BB210830FE00A28AD3 /* Nanami-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Book.otf"; sourceTree = "<group>"; };
+		86AF18BC210830FE00A28AD3 /* Nanami-BookOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-BookOblique.otf"; sourceTree = "<group>"; };
+		86AF18BD210830FE00A28AD3 /* Nanami-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-ExtraLight.otf"; sourceTree = "<group>"; };
+		86AF18BE210830FE00A28AD3 /* Nanami-ExtraLightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-ExtraLightOblique.otf"; sourceTree = "<group>"; };
+		86AF18BF210830FE00A28AD3 /* Nanami-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Heavy.otf"; sourceTree = "<group>"; };
+		86AF18C0210830FE00A28AD3 /* Nanami-HeavyOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-HeavyOblique.otf"; sourceTree = "<group>"; };
+		86AF18C1210830FE00A28AD3 /* Nanami-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Light.otf"; sourceTree = "<group>"; };
+		86AF18C2210830FE00A28AD3 /* Nanami-LightOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-LightOblique.otf"; sourceTree = "<group>"; };
+		86AF18C3210830FE00A28AD3 /* Nanami-OutlineOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-OutlineOblique.otf"; sourceTree = "<group>"; };
+		86AF18C4210830FE00A28AD3 /* Nanami-OutlineRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-OutlineRegular.otf"; sourceTree = "<group>"; };
+		86AF18C5210830FE00A28AD3 /* Nanami-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Regular.otf"; sourceTree = "<group>"; };
+		86AF18C6210830FE00A28AD3 /* Nanami-RegularOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-RegularOblique.otf"; sourceTree = "<group>"; };
+		86AF18C7210830FE00A28AD3 /* Nanami-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Thin.otf"; sourceTree = "<group>"; };
+		86AF18C8210830FE00A28AD3 /* Nanami-ThinOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-ThinOblique.otf"; sourceTree = "<group>"; };
+		86AF18C9210830FE00A28AD3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		86AF18DE2108310C00A28AD3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		86AF18DF2108310C00A28AD3 /* NiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceButton.swift; sourceTree = "<group>"; };
+		86AF18E32108311500A28AD3 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		86AF18E42108311500A28AD3 /* SettingsProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsProfileTableViewCell.swift; sourceTree = "<group>"; };
+		86AF18E82108311E00A28AD3 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		86AF18E92108311E00A28AD3 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
+		86AF18EA2108311E00A28AD3 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		86AF18EB2108311E00A28AD3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A708D0A3E65BAFB7F0D2E490 /* Pods_HiU_HiUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiU_HiUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95CABD2F47B9150B449306F /* Pods-HiU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.release.xcconfig"; sourceTree = "<group>"; };
 		BD2B38C9B68E15737DE4FE95 /* Pods_HiUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -958,6 +1014,10 @@
 		46E28CBF1F70B8510019CE74 /* HiU */ = {
 			isa = PBXGroup;
 			children = (
+				86AF18E72108311E00A28AD3 /* ViewControllers */,
+				86AF18E22108311500A28AD3 /* Viewcell */,
+				86AF18DD2108310C00A28AD3 /* Utility */,
+				86AF18B3210830DF00A28AD3 /* Modal */,
 				46FCB1841F83F1FE00A65499 /* Home */,
 				46FCB1851F83F1FE00A65499 /* Navegacion */,
 				46FCB1821F83061000A65499 /* Login */,
@@ -994,6 +1054,8 @@
 		46E28CEE1F70BB7A0019CE74 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				86AF18B6210830FE00A28AD3 /* fonts */,
+				86AF18C9210830FE00A28AD3 /* Localizable.strings */,
 				46E28CEF1F70BB7A0019CE74 /* assets */,
 				46E28E931F70BB7A0019CE74 /* video */,
 			);
@@ -1552,6 +1614,68 @@
 			path = Navegacion;
 			sourceTree = "<group>";
 		};
+		86AF18B3210830DF00A28AD3 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				86AF18B4210830DF00A28AD3 /* RequestModal.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		86AF18B6210830FE00A28AD3 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				86AF18B7210830FE00A28AD3 /* Nanami-Black.otf */,
+				86AF18B8210830FE00A28AD3 /* Nanami-BlackOblique.otf */,
+				86AF18B9210830FE00A28AD3 /* Nanami-Bold.otf */,
+				86AF18BA210830FE00A28AD3 /* Nanami-BoldOblique.otf */,
+				86AF18BB210830FE00A28AD3 /* Nanami-Book.otf */,
+				86AF18BC210830FE00A28AD3 /* Nanami-BookOblique.otf */,
+				86AF18BD210830FE00A28AD3 /* Nanami-ExtraLight.otf */,
+				86AF18BE210830FE00A28AD3 /* Nanami-ExtraLightOblique.otf */,
+				86AF18BF210830FE00A28AD3 /* Nanami-Heavy.otf */,
+				86AF18C0210830FE00A28AD3 /* Nanami-HeavyOblique.otf */,
+				86AF18C1210830FE00A28AD3 /* Nanami-Light.otf */,
+				86AF18C2210830FE00A28AD3 /* Nanami-LightOblique.otf */,
+				86AF18C3210830FE00A28AD3 /* Nanami-OutlineOblique.otf */,
+				86AF18C4210830FE00A28AD3 /* Nanami-OutlineRegular.otf */,
+				86AF18C5210830FE00A28AD3 /* Nanami-Regular.otf */,
+				86AF18C6210830FE00A28AD3 /* Nanami-RegularOblique.otf */,
+				86AF18C7210830FE00A28AD3 /* Nanami-Thin.otf */,
+				86AF18C8210830FE00A28AD3 /* Nanami-ThinOblique.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		86AF18DD2108310C00A28AD3 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				86AF18DE2108310C00A28AD3 /* Helper.swift */,
+				86AF18DF2108310C00A28AD3 /* NiceButton.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		86AF18E22108311500A28AD3 /* Viewcell */ = {
+			isa = PBXGroup;
+			children = (
+				86AF18E32108311500A28AD3 /* RequestTableViewCell.swift */,
+				86AF18E42108311500A28AD3 /* SettingsProfileTableViewCell.swift */,
+			);
+			path = Viewcell;
+			sourceTree = "<group>";
+		};
+		86AF18E72108311E00A28AD3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86AF18E82108311E00A28AD3 /* MenuViewController.swift */,
+				86AF18E92108311E00A28AD3 /* RecordVideoViewController.swift */,
+				86AF18EA2108311E00A28AD3 /* RequestsViewController.swift */,
+				86AF18EB2108311E00A28AD3 /* SettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D8EE01B245385A0EC3952CCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1718,6 +1842,7 @@
 				46E28F301F70BB7A0019CE74 /* menu_0005_mask.png in Resources */,
 				46E28EDD1F70BB7A0019CE74 /* history_0030_06_10-am---December-24,--2019-copia-3.png in Resources */,
 				46E28F531F70BB7A0019CE74 /* menu_0040_expand-icon.png in Resources */,
+				86AF18DA210830FE00A28AD3 /* Nanami-Thin.otf in Resources */,
 				46E28FD61F70BB7B0019CE74 /* payment_0046_Done!.png in Resources */,
 				46E28F251F70BB7A0019CE74 /* list_0048_Image.png in Resources */,
 				46E28FAD1F70BB7A0019CE74 /* payment_0005_HiU.png in Resources */,
@@ -1752,6 +1877,7 @@
 				46E28ECA1F70BB7A0019CE74 /* history_0011_search-icon.png in Resources */,
 				46E2900A1F70BB7B0019CE74 /* signup_0022_corner.png in Resources */,
 				46E290041F70BB7B0019CE74 /* signup_0016_eye-active-icon.png in Resources */,
+				86AF18D4210830FE00A28AD3 /* Nanami-Light.otf in Resources */,
 				46E290321F70BB7B0019CE74 /* welcome_0000_loading.png in Resources */,
 				46E28EC71F70BB7A0019CE74 /* history_0008_Most-recents--j.png in Resources */,
 				46E28F121F70BB7A0019CE74 /* list_0029_search-icon.png in Resources */,
@@ -1789,6 +1915,7 @@
 				46E28EF41F70BB7A0019CE74 /* history_0053_BG.png in Resources */,
 				46E28EEC1F70BB7A0019CE74 /* history_0045_bg.png in Resources */,
 				46E28F011F70BB7A0019CE74 /* list_0012_Cover-glass--copia.png in Resources */,
+				86AF18D6210830FE00A28AD3 /* Nanami-OutlineOblique.otf in Resources */,
 				46E28F891F70BB7A0019CE74 /* message_0021_Glass-effect.png in Resources */,
 				46E28FA81F70BB7A0019CE74 /* payment_0000_Objeto-inteligente-vectorial.png in Resources */,
 				46E28FF21F70BB7B0019CE74 /* sign-in-_0018_Fotolia_88404000_Subscription_Monthly_L.png in Resources */,
@@ -1831,6 +1958,7 @@
 				46E28F781F70BB7A0019CE74 /* message_0004_corner.png in Resources */,
 				46E28EDA1F70BB7A0019CE74 /* history_0027_Reply-copia-3.png in Resources */,
 				46E28EB31F70BB7A0019CE74 /* charity_0020_shadow.png in Resources */,
+				86AF18D0210830FE00A28AD3 /* Nanami-ExtraLight.otf in Resources */,
 				46E28EAB1F70BB7A0019CE74 /* charity_0012_Objeto-inteligente-vectorial.png in Resources */,
 				46E28F261F70BB7A0019CE74 /* list_0049_BG.png in Resources */,
 				46E28FB01F70BB7A0019CE74 /* payment_0008_Battery-.png in Resources */,
@@ -1868,6 +1996,8 @@
 				46E28CCB1F70B8510019CE74 /* LaunchScreen.storyboard in Resources */,
 				46E28FD81F70BB7B0019CE74 /* payment_0048_corner.png in Resources */,
 				46E290131F70BB7B0019CE74 /* history_0002_Cancel.png in Resources */,
+				86AF18D9210830FE00A28AD3 /* Nanami-RegularOblique.otf in Resources */,
+				86AF18DB210830FE00A28AD3 /* Nanami-ThinOblique.otf in Resources */,
 				46E28F9C1F70BB7A0019CE74 /* message_0040_line.png in Resources */,
 				46E28FDC1F70BB7B0019CE74 /* payment_0052_BG.png in Resources */,
 				46E28F7C1F70BB7A0019CE74 /* message_0008_Capa-2.png in Resources */,
@@ -1927,6 +2057,7 @@
 				46E28CC81F70B8510019CE74 /* Assets.xcassets in Resources */,
 				46E28EA31F70BB7A0019CE74 /* charity_0004_Bars-.png in Resources */,
 				46E28F731F70BB7A0019CE74 /* menu_0073_white.png in Resources */,
+				86AF18D1210830FE00A28AD3 /* Nanami-ExtraLightOblique.otf in Resources */,
 				46E28EB11F70BB7A0019CE74 /* charity_0018_Layer-19.png in Resources */,
 				46E290351F70BB7B0019CE74 /* welcome_0003_Objeto-inteligente-vectorial.png in Resources */,
 				46E28F3B1F70BB7A0019CE74 /* menu_0016_active.png in Resources */,
@@ -1935,6 +2066,7 @@
 				46E28F221F70BB7A0019CE74 /* list_0045_glow-bar.png in Resources */,
 				46E28F391F70BB7A0019CE74 /* menu_0014_screws.png in Resources */,
 				46E28F971F70BB7A0019CE74 /* message_0035_Capa-1.png in Resources */,
+				86AF18D2210830FE00A28AD3 /* Nanami-Heavy.otf in Resources */,
 				46E28EA91F70BB7A0019CE74 /* charity_0010_Select-the-desired-charity.png in Resources */,
 				46E28CC61F70B8510019CE74 /* Main.storyboard in Resources */,
 				46E28ED91F70BB7A0019CE74 /* history_0026_mask-copia-2.png in Resources */,
@@ -1973,6 +2105,7 @@
 				46E28FF61F70BB7B0019CE74 /* signup_0002_Objeto-inteligente-vectorial.png in Resources */,
 				46E28F421F70BB7A0019CE74 /* menu_0023_active-orange.png in Resources */,
 				46E28FF11F70BB7B0019CE74 /* sign-in-_0017_New-here_-Sign-Up.png in Resources */,
+				86AF18CF210830FE00A28AD3 /* Nanami-BookOblique.otf in Resources */,
 				46E28FFC1F70BB7B0019CE74 /* signup_0008_Password.png in Resources */,
 				46E28F651F70BB7A0019CE74 /* menu_0058_non-act.png in Resources */,
 				46E28EE61F70BB7A0019CE74 /* history_0039_bg-copia-2.png in Resources */,
@@ -1994,6 +2127,7 @@
 				46E28F131F70BB7A0019CE74 /* list_0030_devider.png in Resources */,
 				46E28EED1F70BB7A0019CE74 /* history_0046_bg.png in Resources */,
 				46E28F811F70BB7A0019CE74 /* message_0013_Status-Bar-Black.png in Resources */,
+				86AF18D3210830FE00A28AD3 /* Nanami-HeavyOblique.otf in Resources */,
 				46E28F7A1F70BB7A0019CE74 /* message_0006_bg.png in Resources */,
 				46E2900B1F70BB7B0019CE74 /* signup_0023_corner.png in Resources */,
 				46E28FF01F70BB7B0019CE74 /* sign-in-_0016_Login-with.png in Resources */,
@@ -2001,6 +2135,7 @@
 				46E290281F70BB7B0019CE74 /* history_0023_devider---.png in Resources */,
 				46E28EB21F70BB7A0019CE74 /* charity_0019_shadow.png in Resources */,
 				46E28F561F70BB7A0019CE74 /* menu_0043_bg.png in Resources */,
+				86AF18CA210830FE00A28AD3 /* Nanami-Black.otf in Resources */,
 				46E28FC01F70BB7A0019CE74 /* payment_0024_put-img-here.png in Resources */,
 				46E28FA01F70BB7A0019CE74 /* notifications_0001_Show-more.png in Resources */,
 				46E2900F1F70BB7B0019CE74 /* signup_0027_Fotolia_88404000_Subscription_Monthly_L.png in Resources */,
@@ -2008,6 +2143,7 @@
 				46E28EBD1F70BB7A0019CE74 /* charity_0030_Add-to-my-charities.png in Resources */,
 				46E2901F1F70BB7B0019CE74 /* history_0014_9_41-AM.png in Resources */,
 				46E28FC71F70BB7B0019CE74 /* payment_0031_CVV.png in Resources */,
+				86AF18D5210830FE00A28AD3 /* Nanami-LightOblique.otf in Resources */,
 				46E28F231F70BB7A0019CE74 /* list_0046_inner-bevel.png in Resources */,
 				46E290261F70BB7B0019CE74 /* history_0021_bg.png in Resources */,
 				46E28EC61F70BB7A0019CE74 /* history_0007_Menu.png in Resources */,
@@ -2016,11 +2152,13 @@
 				46E28FB11F70BB7A0019CE74 /* payment_0009_back-icon.png in Resources */,
 				46E290271F70BB7B0019CE74 /* history_0022_Size--43--j.png in Resources */,
 				46E28F681F70BB7A0019CE74 /* menu_0061_expand-icon.png in Resources */,
+				86AF18D7210830FE00A28AD3 /* Nanami-OutlineRegular.otf in Resources */,
 				46E290091F70BB7B0019CE74 /* signup_0021_corner.png in Resources */,
 				46E28F361F70BB7A0019CE74 /* menu_0011_Start-searching-in-settings-....png in Resources */,
 				46E28F041F70BB7A0019CE74 /* list_0015_Objeto-inteligente-vectorial.png in Resources */,
 				46E28F711F70BB7A0019CE74 /* menu_0070_mask.png in Resources */,
 				46E28F2A1F70BB7A0019CE74 /* load_0003_Objeto-inteligente-vectorial.png in Resources */,
+				86AF18CC210830FE00A28AD3 /* Nanami-Bold.otf in Resources */,
 				46E28FB91F70BB7A0019CE74 /* payment_0017_Message.png in Resources */,
 				46E28F161F70BB7A0019CE74 /* list_0033_Category.png in Resources */,
 				46E290251F70BB7B0019CE74 /* history_0020_active.png in Resources */,
@@ -2056,6 +2194,7 @@
 				46E28FFB1F70BB7B0019CE74 /* signup_0007_Repeat-Password.png in Resources */,
 				46E28FDF1F70BB7B0019CE74 /* screens2W-4.jpg in Resources */,
 				46E28F7D1F70BB7A0019CE74 /* message_0009_Hello-there,-a-greeting-for-my-friend--Daniel-in-Medellin-Colom.png in Resources */,
+				86AF18CD210830FE00A28AD3 /* Nanami-BoldOblique.otf in Resources */,
 				46E2903C1F70BB7B0019CE74 /* gif_smart.gif in Resources */,
 				46E28F4D1F70BB7A0019CE74 /* menu_0034_news-icon.png in Resources */,
 				46E28F961F70BB7A0019CE74 /* message_0034_bg.png in Resources */,
@@ -2065,6 +2204,7 @@
 				46E290171F70BB7B0019CE74 /* history_0006_Rect†ngulo-redondeado-1.png in Resources */,
 				46E290201F70BB7B0019CE74 /* history_0015_Battery-.png in Resources */,
 				46E2902B1F70BB7B0019CE74 /* history_0026_Color.png in Resources */,
+				86AF18CB210830FE00A28AD3 /* Nanami-BlackOblique.otf in Resources */,
 				46E28F671F70BB7A0019CE74 /* menu_0060_devide.png in Resources */,
 				46E28FAE1F70BB7A0019CE74 /* payment_0006_WiFi.png in Resources */,
 				46E28F3E1F70BB7A0019CE74 /* menu_0019_Value-min-request.png in Resources */,
@@ -2094,12 +2234,15 @@
 				46E28F141F70BB7A0019CE74 /* list_0031_Name.png in Resources */,
 				46E28FD41F70BB7B0019CE74 /* payment_0044_line.png in Resources */,
 				46E28EF21F70BB7A0019CE74 /* history_0051_devider-.png in Resources */,
+				86AF18CE210830FE00A28AD3 /* Nanami-Book.otf in Resources */,
 				46E28F0F1F70BB7A0019CE74 /* list_0026_Select-your-Celebrity-j.png in Resources */,
 				46E28FC81F70BB7B0019CE74 /* payment_0032_Powered-by-.png in Resources */,
 				46E28F511F70BB7A0019CE74 /* menu_0038_bg.png in Resources */,
 				46E2901D1F70BB7B0019CE74 /* history_0012_HiU.png in Resources */,
 				46E28F0E1F70BB7A0019CE74 /* list_0025_Menu.png in Resources */,
 				46FCB1891F841FB500A65499 /* Login.storyboard in Resources */,
+				86AF18DC210830FE00A28AD3 /* Localizable.strings in Resources */,
+				86AF18D8210830FE00A28AD3 /* Nanami-Regular.otf in Resources */,
 				46E28F741F70BB7A0019CE74 /* message_0000_Message.png in Resources */,
 				46E28ECC1F70BB7A0019CE74 /* history_0013_Name.png in Resources */,
 				46E28FA71F70BB7A0019CE74 /* notifications_0008_Objeto-inteligente-vectorial.png in Resources */,
@@ -2184,8 +2327,11 @@
 				"${BUILT_PRODUCTS_DIR}/AWSPinpoint/AWSPinpoint.framework",
 				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SCRecorder/SCRecorder.framework",
+				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -2198,8 +2344,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPinpoint.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCRecorder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2213,10 +2362,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AF18ED2108311E00A28AD3 /* RecordVideoViewController.swift in Sources */,
 				46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */,
+				86AF18EC2108311E00A28AD3 /* MenuViewController.swift in Sources */,
+				86AF18E52108311500A28AD3 /* RequestTableViewCell.swift in Sources */,
+				86AF18B5210830DF00A28AD3 /* RequestModal.swift in Sources */,
+				86AF18E12108310C00A28AD3 /* NiceButton.swift in Sources */,
 				46E28CC31F70B8510019CE74 /* ViewController.swift in Sources */,
+				86AF18E62108311500A28AD3 /* SettingsProfileTableViewCell.swift in Sources */,
 				46E28CC11F70B8510019CE74 /* AppDelegate.swift in Sources */,
 				4685FCA31F943AD60032CA66 /* Login.swift in Sources */,
+				86AF18EF2108311E00A28AD3 /* SettingsViewController.swift in Sources */,
+				86AF18EE2108311E00A28AD3 /* RequestsViewController.swift in Sources */,
+				86AF18E02108310C00A28AD3 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

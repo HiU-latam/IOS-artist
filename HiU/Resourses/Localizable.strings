@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  HiU
+
+  Created by Shiny Solutions on 1/9/18.
+  Copyright © 2018 developer. All rights reserved.
+*/
+"login_with" = "Login with";
+"sign_in" = "Sign In";
+"new_here" = "New here";
+"sign_up" = "Sign Up";
+"dashboard" = "Dashboard";
+"search" = "Search";
+"name" = "Name";
+"category" = "Category";
+"country" = "Country";
+"select_celebrity" = "Select your Celebrity";
+"message" = "Message";
+"complete_form" = "Complete the form with necessary data.";
+"lucky_one" = "Who is the lucky one?";
+"your_words" = "Your Words";
+"less_characters" = "Less that xxxxx characters";
+"value" = "Value";
+"next" = "Next";
+"choose_the_charity" = "Choose the charity";
+"select_the_desired_charity" = "Select the desired charity";
+"charity_name" = "Charity Name";
+"add_to_my_charities" = "Add to my charities";
+"learn_more" = "Learn more";
+"payment_details" = "Payment Details";
+"message" = "Message";
+"charity" = "Charity";
+"total" = "Total";
+"card_number" = "Card Number";
+"exp_date" = "Exp. Date";
+"cvv" = "CVV";
+"name" = "Name";
+"done" = "Done!";
+"requests" = "Requests";
+"most_recents" = "Most recents";
+"choose_month" = "Choose month";
+"reply" = "Reply";
+"record_video" = "Record Video";
