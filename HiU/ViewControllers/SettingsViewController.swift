@@ -60,7 +60,16 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
             
             cell.labelPhoto.layer.cornerRadius = 40
             cell.labelPhoto.layer.masksToBounds = true
-            cell.labelPhoto.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0x16262f)
+            
+            cell.labelProfileName.text = "Leonardo Test"
+            cell.labelProfileName.font = UIFont(name: "Nanami", size: 16.0)
+            
+            cell.labelProfile.text = NSLocalizedString("profile", comment: "")
+            cell.labelProfile.font = UIFont(name: "Nanami", size: 12.0)
+            
+            cell.buttonEdit.setTitle(NSLocalizedString("edit", comment: ""), for: .normal)
+            cell.buttonEdit.titleLabel?.font = UIFont(name: "Nanami", size: 8.0)
+            cell.buttonEdit.setTitleColor(Helper.UIColorFromRGB(rgbValue: UInt(Helper.appThemeColor)), for: .normal)
             
             return cell
         }else{

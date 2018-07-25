@@ -16,6 +16,8 @@ struct Fonts {
 
 class Helper {
     
+    static var appThemeColor = 0xcf00d2
+    
     static func UIColorFromRGB(rgbValue: UInt) -> UIColor {
         NSLog("%@", "Helper - UIColorFromRGB")
         return UIColor(
