@@ -8,17 +8,9 @@
 
 import UIKit
 
-struct Fonts {
-    static let Small = UIFont(name: "Nanami-Regular", size: 10)
-    static let Medium = UIFont(name: "Nanami-Regular", size: 12)
-    static let Large = UIFont(name: "Nanami-Regular", size: 14)
-}
-
 class Helper {
     
-    static var appThemeColor = 0xcf00d2
-    
-    static func UIColorFromRGB(rgbValue: UInt) -> UIColor {
+    private static func UIColorFromRGB(rgbValue: UInt) -> UIColor {
         NSLog("%@", "Helper - UIColorFromRGB")
         return UIColor(
             red: CGFloat((rgbValue & 0xFF0000) >> 16) / 255.0,
@@ -26,5 +18,41 @@ class Helper {
             blue: CGFloat(rgbValue & 0x0000FF) / 255.0,
             alpha: CGFloat(1.0)
         )
+    }
+    
+    static func appThemeColor() -> UIColor {
+        return UIColorFromRGB(rgbValue: 0xcf00d2)
+    }
+    
+    static func appThemeGray() -> UIColor {
+        return UIColorFromRGB(rgbValue: 0xbfbfbf)
+    }
+    
+    static func appThemeBlack() -> UIColor {
+        return UIColorFromRGB(rgbValue: 0x16262f)
+    }
+}
+
+extension UIFont{
+    private static func customFont(name: String, size: CGFloat) -> UIFont{
+        let font = UIFont(name: name, size: size)
+        assert(font != nil, "Can't load font: \(name)")
+        return font ?? UIFont.systemFont(ofSize: size)
+    }
+    
+    static func appFontVeryLarge() -> UIFont{
+        return customFont(name: "Nanami", size: 18.0)
+    }
+    
+    static func appFontLarge() -> UIFont{
+        return customFont(name: "Nanami", size: 16.0)
+    }
+    
+    static func appFontMedium() -> UIFont{
+        return customFont(name: "Nanami", size: 12.0)
+    }
+    
+    static func appFontSmall() -> UIFont{
+        return customFont(name: "Nanami", size: 8.0)
     }
 }

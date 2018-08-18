@@ -102,20 +102,20 @@ class Login: UIViewController {
         textPassword.rightViewMode = UITextFieldViewMode.always
         
         labelLoginWith.text = NSLocalizedString("login_with", comment: "")
-        labelLoginWith.font = Fonts.Small
+        labelLoginWith.font = UIFont.appFontSmall()
         labelLoginWith.textColor = UIColor.white
         labelLoginWith.contentMode = UIViewContentMode.center
         
         buttonLogin.setTitle(NSLocalizedString("sign_in", comment: ""), for: UIControlState.normal)
-        buttonLogin.titleLabel?.font = Fonts.Small
+        buttonLogin.titleLabel?.font = UIFont.appFontMedium()
         buttonLogin.setTitleColor(UIColor.white, for: UIControlState.normal)
-        buttonLogin.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        buttonLogin.backgroundColor = Helper.appThemeColor()
         buttonLogin.addTarget(self, action: #selector(signInButtonOnClick), for: .touchUpInside)
         
         let attrTextNewhere = NSMutableAttributedString(string: String(format:"%@?", NSLocalizedString("new_here", comment: "")))
         attrTextNewhere.addAttribute(NSForegroundColorAttributeName, value: UIColor.white, range: NSMakeRange(0, attrTextNewhere.length))
         let attrTextSignUp = NSMutableAttributedString(string: NSLocalizedString("sign_up", comment: ""))
-        attrTextSignUp.addAttribute(NSForegroundColorAttributeName, value: Helper.UIColorFromRGB(rgbValue: 0xcf00d2), range: NSMakeRange(0, attrTextSignUp.length))
+        attrTextSignUp.addAttribute(NSForegroundColorAttributeName, value: Helper.appThemeColor(), range: NSMakeRange(0, attrTextSignUp.length))
         let attributedText = NSMutableAttributedString()
         attributedText.append(attrTextNewhere)
         attributedText.append(attrTextSignUp)
@@ -123,7 +123,7 @@ class Login: UIViewController {
         paragraphStyle.alignment = .center
         attributedText.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: NSMakeRange(0, attributedText.length))
         buttonSignup.setAttributedTitle(attributedText, for: .normal)
-        buttonSignup.titleLabel?.font = Fonts.Small
+        buttonSignup.titleLabel?.font = UIFont.appFontMedium()
     }
     
     func signInButtonOnClick(sender: UIButton!) {

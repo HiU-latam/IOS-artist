@@ -43,3 +43,12 @@
 "record_video" = "Record Video";
 "profile" = "Profile";
 "edit" = "Edit";
+"number_requests_allowed" = "Number requests allowed";
+"my_charity_preference" = "My charity Preference";
+"notification" = "Notification";
+"value_min_request" = "Value min request";
+"balance" = "Balance";
+"0to10" = "0 - 10";
+"10to50" = "10 - 50";
+"more_than_50" = "+50";
+

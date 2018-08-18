@@ -69,8 +69,8 @@ class RecordVideoViewController: UIViewController, SCRecorderDelegate {
     
     func prepareNavigation() {
         
-        self.navigationController?.navigationBar.tintColor = Helper.UIColorFromRGB(rgbValue: 0x16262f)
-        self.navigationController?.navigationBar.barTintColor = Helper.UIColorFromRGB(rgbValue: 0x16262f)
+        self.navigationController?.navigationBar.tintColor = Helper.appThemeBlack()
+        self.navigationController?.navigationBar.barTintColor = Helper.appThemeBlack()
         
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
         
@@ -80,9 +80,9 @@ class RecordVideoViewController: UIViewController, SCRecorderDelegate {
             let firstFrame = CGRect(x: (navigationBar.frame.size.width/2) - 80, y:(navigationBar.frame.size.height/2) - 10, width: 160, height:20)
             navigationBarLabel = UILabel(frame: firstFrame)
             navigationBarLabel.text = NSLocalizedString("record_video", comment: "")
-            navigationBarLabel.textColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+            navigationBarLabel.textColor = Helper.appThemeColor()
             navigationBarLabel.textAlignment = NSTextAlignment.center
-            navigationBarLabel.font = Fonts.Medium
+            navigationBarLabel.font = UIFont.appFontMedium()
             navigationBar.addSubview(navigationBarLabel)
         }
         
@@ -99,7 +99,7 @@ class RecordVideoViewController: UIViewController, SCRecorderDelegate {
         var rightBarButtonImge = UIImage(named: "icon_plus")
         rightBarButtonImge = rightBarButtonImge?.withRenderingMode(.alwaysOriginal)
         let buttonAdd = UIButton(frame: CGRect(x: (self.navigationController?.navigationBar.bounds.width)! - 50, y: 0, width: 50, height: (self.navigationController?.navigationBar.bounds.height)!))
-        buttonAdd.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        buttonAdd.backgroundColor = Helper.appThemeColor()
         buttonAdd.setImage(rightBarButtonImge, for: .normal)
         buttonAdd.addTarget(self, action: #selector(openRightMenu(_:)), for: .touchUpInside)
         rightBarButtonItem = UIBarButtonItem.init(

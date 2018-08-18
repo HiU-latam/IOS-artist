@@ -9,12 +9,23 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SettingsViewController: UIViewController {
     
     //MARK: Declaration
+    var settingsSection = [SettingsSectionModal]()
+    var settingsRow = [SettingsRowModal]()
+    var expandedSectionHeaderNumber: Int = -1
+    let kHeaderSectionTag: Int = 6900;
+    var expandedSectionHeader: UITableViewHeaderFooterView!
+    fileprivate let viewModel = SettingsSectionModal()
+    
     
     //MARK: Outlet
     @IBOutlet weak var tableViewSettings: UITableView!
+    @IBOutlet weak var labelProfilePhoto: UILabel!
+    @IBOutlet weak var labelProfile: UILabel!
+    @IBOutlet weak var labelPrfole: UILabel!
+    @IBOutlet weak var buttonEdit: UIButton!
     
     //MARK: Outlet action
 
@@ -22,6 +33,8 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        prepareTableView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,8 +44,9 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        prepareProfile()
         
-        prepareTableView()
+        
         
     }
     
@@ -45,45 +59,43 @@ class SettingsViewController: UIViewController, UITableViewDelegate, UITableView
         // Pass the selected object to the new view controller.
     }
     
+    //MARK: Preprare profile
+    func prepareProfile() {
+        labelProfilePhoto.layer.cornerRadius = 40
+        labelProfilePhoto.layer.masksToBounds = true
+        
+        labelProfile.text = "Leonardo Test"
+        labelProfile.font = UIFont.appFontLarge()
+        
+        labelPrfole.text = NSLocalizedString("profile", comment: "")
+        labelPrfole.font = UIFont.appFontMedium()
+        labelPrfole.textColor = Helper.appThemeColor()
+        
+        buttonEdit.setTitle(NSLocalizedString("edit", comment: ""), for: .normal)
+        buttonEdit.titleLabel?.font = UIFont.appFontSmall()
+        buttonEdit.setTitleColor(Helper.appThemeGray(), for: .normal)
+    }
+    
     //MARK: Prepare Table view
     func prepareTableView() {
-        tableViewSettings.delegate = self
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if indexPath.row == 0 {
-            let cell:SettingsProfileTableViewCell = (tableView.dequeueReusableCell(withIdentifier: "SettingsProfileTableViewCell", for: indexPath) as? SettingsProfileTableViewCell)!
-            
-            cell.labelPhoto.layer.cornerRadius = 40
-            cell.labelPhoto.layer.masksToBounds = true
-            
-            cell.labelProfileName.text = "Leonardo Test"
-            cell.labelProfileName.font = UIFont(name: "Nanami", size: 16.0)
-            
-            cell.labelProfile.text = NSLocalizedString("profile", comment: "")
-            cell.labelProfile.font = UIFont(name: "Nanami", size: 12.0)
-            
-            cell.buttonEdit.setTitle(NSLocalizedString("edit", comment: ""), for: .normal)
-            cell.buttonEdit.titleLabel?.font = UIFont(name: "Nanami", size: 8.0)
-            cell.buttonEdit.setTitleColor(Helper.UIColorFromRGB(rgbValue: UInt(Helper.appThemeColor)), for: .normal)
-            
-            return cell
-        }else{
-            let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-            return cell
+        
+        NSLog("prepareTableView", "")
+        
+        viewModel.reloadSections = { [weak self] (section: Int) in
+            self?.tableViewSettings?.beginUpdates()
+            self?.tableViewSettings?.reloadSections([section], with: .fade)
+            self?.tableViewSettings?.endUpdates()
         }
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if indexPath.row == 0 {
-            return 108
-        }else{
-            return 0.0
-        }
+        
+        tableViewSettings?.estimatedRowHeight = 100
+        tableViewSettings?.rowHeight = UITableViewAutomaticDimension
+        tableViewSettings?.sectionHeaderHeight = 70
+        tableViewSettings?.separatorStyle = .none
+        tableViewSettings?.dataSource = viewModel
+        tableViewSettings?.delegate = viewModel
+        tableViewSettings?.register(SettingsItemTableViewCell.nib, forCellReuseIdentifier: SettingsItemTableViewCell.identifier)
+        tableViewSettings?.register(SettingsCharityPreferenceTableViewCell.nib, forCellReuseIdentifier: SettingsCharityPreferenceTableViewCell.identifier)
+        tableViewSettings?.register(HeaderView.nib, forHeaderFooterViewReuseIdentifier: HeaderView.identifier)
     }
 
 }

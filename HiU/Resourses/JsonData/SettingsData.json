@@ -1,0 +1,35 @@
+{
+    "data": {
+        "numberRequestAllowed": [
+                                 {
+                                 "name": "0 - 10",
+                                 "selected": "Yes"
+                                },
+                                {
+                                "name": "10 - 50",
+                                "selected": "No"
+                                },
+                                {
+                                "name": "+50",
+                                "selected": "No"
+                                }
+        ],
+        "charityPreferences":[
+                                {
+                                "name": "United Way Worldwide",
+                                "selected": "Yes"
+                                },
+                                {
+                                "name": "Task Force for Global Health",
+                                "selected": "No"
+                                },
+                                {
+                                "name": "Feeding America",
+                                "selected": "No"
+                              },
+                              {
+                              "name": "Salvation Army",
+                              "selected": "No"
+                              }
+                              ]}
+}

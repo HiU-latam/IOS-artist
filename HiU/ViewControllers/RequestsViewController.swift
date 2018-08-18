@@ -82,8 +82,8 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func prepareNavigation() {
         
-        self.slideMenuController()?.navigationController?.navigationBar.tintColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
-        self.slideMenuController()?.navigationController?.navigationBar.barTintColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        self.slideMenuController()?.navigationController?.navigationBar.tintColor = Helper.appThemeColor()
+        self.slideMenuController()?.navigationController?.navigationBar.barTintColor = Helper.appThemeColor()
         
         self.slideMenuController()?.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
         
@@ -95,7 +95,7 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
             navigationBarLabel.text = NSLocalizedString("requests", comment: "")
             navigationBarLabel.textColor = UIColor.white
             navigationBarLabel.textAlignment = NSTextAlignment.center
-            navigationBarLabel.font = Fonts.Medium
+            navigationBarLabel.font = UIFont.appFontMedium()
             navigationBar.addSubview(navigationBarLabel)
         }
         
@@ -187,7 +187,7 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
         let tabBarHeight = 50
         
         self.viewTab.frame = CGRect(x: 0, y: 0, width: screenWidth, height: 50)
-        self.viewTab.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        self.viewTab.backgroundColor = Helper.appThemeColor()
         
         let tabBarWidth = Int(self.viewTab.frame.width / 3)
         
@@ -197,7 +197,7 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
             let buttonName = UIButton(type: UIButtonType.custom)
             buttonName.frame = CGRect(x: currentIndex * tabBarWidth, y: 0, width: tabBarWidth, height: tabBarHeight)
             buttonName.setTitle(tabBarItemTitle, for: .normal)
-            buttonName.titleLabel?.font = Fonts.Medium
+            buttonName.titleLabel?.font = UIFont.appFontMedium()
             buttonName.titleLabel?.textColor = UIColor.white
             buttonName.setBackgroundImage(UIImage(named: "history_tab_bg"), for: .selected)
             buttonName.setBackgroundImage(nil, for: .normal)
@@ -278,7 +278,7 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
         NSLog("%@", "RequestsViewController - prepareResult")
         
         labelByName.font = UIFont(name: "Nanami", size: 12.0)
-        labelByName.textColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        labelByName.textColor = Helper.appThemeColor()
         for tabBarItemTitle in self.viewTab.subviews {
             let buttonItem = tabBarItemTitle as! UIButton
             let isEqualTabBarTitle = buttonItem.isSelected
@@ -290,10 +290,10 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         
         labelCount.font = UIFont(name: "Nanami", size: 12.0)
-        labelCount.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        labelCount.backgroundColor = Helper.appThemeColor()
         labelCount.textColor = UIColor.white
         labelCount.text = "10"
-        labelCount.layer.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2).cgColor
+        labelCount.layer.backgroundColor = Helper.appThemeColor().cgColor
         labelCount.layer.cornerRadius = 10
         labelCount.layer.masksToBounds = true
         labelCount.textAlignment = .center
@@ -343,7 +343,7 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
         
         let requestModal = arrayRequestModal[indexPath.row]
         
-        cell.labelPicture.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        cell.labelPicture.backgroundColor = Helper.appThemeColor()
         cell.labelPicture.text = ""
         cell.labelPicture.layer.cornerRadius = 5
         cell.labelPicture.layer.masksToBounds = true
@@ -356,7 +356,7 @@ class RequestsViewController: UIViewController, UITableViewDataSource, UITableVi
         cell.labelDate.textColor = UIColor.gray
         
         cell.buttonReply.setTitle(NSLocalizedString("reply", comment: ""), for: .normal)
-        cell.buttonReply.backgroundColor = Helper.UIColorFromRGB(rgbValue: 0xcf00d2)
+        cell.buttonReply.backgroundColor = Helper.appThemeColor()
         cell.buttonReply.setTitleColor(UIColor.white, for: .normal)
         cell.buttonReply.layer.cornerRadius = 5
         cell.buttonReply.layer.masksToBounds = true

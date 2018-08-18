@@ -437,6 +437,13 @@
 		46E290401F70BB7B0019CE74 /* logo5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 46E28E9E1F70BB7A0019CE74 /* logo5.gif */; };
 		46FCB1891F841FB500A65499 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FCB1881F841FB500A65499 /* Login.storyboard */; };
 		46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FCB1F01F8D716900A65499 /* Swift+Gif.swift */; };
+		86521CFB21138DC600AC036F /* SettingsItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86521CF921138DC600AC036F /* SettingsItemTableViewCell.swift */; };
+		86521CFC21138DC600AC036F /* SettingsItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86521CFA21138DC600AC036F /* SettingsItemTableViewCell.xib */; };
+		865EBD612114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865EBD5F2114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.swift */; };
+		865EBD622114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865EBD602114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.xib */; };
+		868DDE3D2109845400576C8A /* SettingsSectionModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DDE3C2109845400576C8A /* SettingsSectionModal.swift */; };
+		868DDE3F2109847000576C8A /* SettingsRowModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DDE3E2109847000576C8A /* SettingsRowModal.swift */; };
+		868DDE412109871E00576C8A /* SettingsSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868DDE402109871E00576C8A /* SettingsSectionTableViewCell.swift */; };
 		86AF18B5210830DF00A28AD3 /* RequestModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18B4210830DF00A28AD3 /* RequestModal.swift */; };
 		86AF18CA210830FE00A28AD3 /* Nanami-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18B7210830FE00A28AD3 /* Nanami-Black.otf */; };
 		86AF18CB210830FE00A28AD3 /* Nanami-BlackOblique.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86AF18B8210830FE00A28AD3 /* Nanami-BlackOblique.otf */; };
@@ -465,6 +472,10 @@
 		86AF18ED2108311E00A28AD3 /* RecordVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18E92108311E00A28AD3 /* RecordVideoViewController.swift */; };
 		86AF18EE2108311E00A28AD3 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18EA2108311E00A28AD3 /* RequestsViewController.swift */; };
 		86AF18EF2108311E00A28AD3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF18EB2108311E00A28AD3 /* SettingsViewController.swift */; };
+		86E1A92F2110FADB00465FA1 /* SettingsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 86E1A92E2110FADB00465FA1 /* SettingsData.json */; };
+		86ED7155210D60F300141A73 /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED7154210D60F300141A73 /* UIColor+AppColors.swift */; };
+		86F369BC211929FF008D3603 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F369BA211929FF008D3603 /* HeaderView.swift */; };
+		86F369BD21192A00008D3603 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86F369BB211929FF008D3603 /* HeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -927,6 +938,13 @@
 		46FCB1F01F8D716900A65499 /* Swift+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
 		580A6A0E23B80C75091F8D26 /* Pods-HiU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.debug.xcconfig"; sourceTree = "<group>"; };
 		645E9C2DC0FA5C51471B62B7 /* Pods-HiUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiUTests/Pods-HiUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86521CF921138DC600AC036F /* SettingsItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsItemTableViewCell.swift; sourceTree = "<group>"; };
+		86521CFA21138DC600AC036F /* SettingsItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsItemTableViewCell.xib; sourceTree = "<group>"; };
+		865EBD5F2114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCharityPreferenceTableViewCell.swift; sourceTree = "<group>"; };
+		865EBD602114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsCharityPreferenceTableViewCell.xib; sourceTree = "<group>"; };
+		868DDE3C2109845400576C8A /* SettingsSectionModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionModal.swift; sourceTree = "<group>"; };
+		868DDE3E2109847000576C8A /* SettingsRowModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowModal.swift; sourceTree = "<group>"; };
+		868DDE402109871E00576C8A /* SettingsSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionTableViewCell.swift; sourceTree = "<group>"; };
 		86AF18B4210830DF00A28AD3 /* RequestModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestModal.swift; sourceTree = "<group>"; };
 		86AF18B7210830FE00A28AD3 /* Nanami-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-Black.otf"; sourceTree = "<group>"; };
 		86AF18B8210830FE00A28AD3 /* Nanami-BlackOblique.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nanami-BlackOblique.otf"; sourceTree = "<group>"; };
@@ -955,6 +973,10 @@
 		86AF18E92108311E00A28AD3 /* RecordVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordVideoViewController.swift; sourceTree = "<group>"; };
 		86AF18EA2108311E00A28AD3 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
 		86AF18EB2108311E00A28AD3 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		86E1A92E2110FADB00465FA1 /* SettingsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SettingsData.json; sourceTree = "<group>"; };
+		86ED7154210D60F300141A73 /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
+		86F369BA211929FF008D3603 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		86F369BB211929FF008D3603 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		A708D0A3E65BAFB7F0D2E490 /* Pods_HiU_HiUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiU_HiUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A95CABD2F47B9150B449306F /* Pods-HiU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiU.release.xcconfig"; path = "Pods/Target Support Files/Pods-HiU/Pods-HiU.release.xcconfig"; sourceTree = "<group>"; };
 		BD2B38C9B68E15737DE4FE95 /* Pods_HiUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1054,6 +1076,7 @@
 		46E28CEE1F70BB7A0019CE74 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				86E1A92D2110FAAF00465FA1 /* JsonData */,
 				86AF18B6210830FE00A28AD3 /* fonts */,
 				86AF18C9210830FE00A28AD3 /* Localizable.strings */,
 				46E28CEF1F70BB7A0019CE74 /* assets */,
@@ -1618,6 +1641,8 @@
 			isa = PBXGroup;
 			children = (
 				86AF18B4210830DF00A28AD3 /* RequestModal.swift */,
+				868DDE3C2109845400576C8A /* SettingsSectionModal.swift */,
+				868DDE3E2109847000576C8A /* SettingsRowModal.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -1650,6 +1675,7 @@
 		86AF18DD2108310C00A28AD3 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				86ED7154210D60F300141A73 /* UIColor+AppColors.swift */,
 				86AF18DE2108310C00A28AD3 /* Helper.swift */,
 				86AF18DF2108310C00A28AD3 /* NiceButton.swift */,
 			);
@@ -1659,8 +1685,15 @@
 		86AF18E22108311500A28AD3 /* Viewcell */ = {
 			isa = PBXGroup;
 			children = (
+				86F369BA211929FF008D3603 /* HeaderView.swift */,
+				86F369BB211929FF008D3603 /* HeaderView.xib */,
 				86AF18E32108311500A28AD3 /* RequestTableViewCell.swift */,
 				86AF18E42108311500A28AD3 /* SettingsProfileTableViewCell.swift */,
+				868DDE402109871E00576C8A /* SettingsSectionTableViewCell.swift */,
+				86521CF921138DC600AC036F /* SettingsItemTableViewCell.swift */,
+				86521CFA21138DC600AC036F /* SettingsItemTableViewCell.xib */,
+				865EBD5F2114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.swift */,
+				865EBD602114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.xib */,
 			);
 			path = Viewcell;
 			sourceTree = "<group>";
@@ -1674,6 +1707,14 @@
 				86AF18EB2108311E00A28AD3 /* SettingsViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		86E1A92D2110FAAF00465FA1 /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				86E1A92E2110FADB00465FA1 /* SettingsData.json */,
+			);
+			path = JsonData;
 			sourceTree = "<group>";
 		};
 		D8EE01B245385A0EC3952CCE /* Pods */ = {
@@ -1818,6 +1859,7 @@
 			files = (
 				46E28EDE1F70BB7A0019CE74 /* history_0031_mask-copia-4.png in Resources */,
 				46E28F1A1F70BB7A0019CE74 /* list_0037_Header-bg.png in Resources */,
+				86521CFC21138DC600AC036F /* SettingsItemTableViewCell.xib in Resources */,
 				46E28F341F70BB7A0019CE74 /* menu_0009_search-icon.png in Resources */,
 				46E28EF31F70BB7A0019CE74 /* history_0052_devider--.png in Resources */,
 				46E28EB01F70BB7A0019CE74 /* charity_0017_Objeto-inteligente-vectorial.png in Resources */,
@@ -2104,6 +2146,7 @@
 				46E28FA41F70BB7A0019CE74 /* notifications_0005_New-Request--from-Jorge-Perez.png in Resources */,
 				46E28FF61F70BB7B0019CE74 /* signup_0002_Objeto-inteligente-vectorial.png in Resources */,
 				46E28F421F70BB7A0019CE74 /* menu_0023_active-orange.png in Resources */,
+				86F369BD21192A00008D3603 /* HeaderView.xib in Resources */,
 				46E28FF11F70BB7B0019CE74 /* sign-in-_0017_New-here_-Sign-Up.png in Resources */,
 				86AF18CF210830FE00A28AD3 /* Nanami-BookOblique.otf in Resources */,
 				46E28FFC1F70BB7B0019CE74 /* signup_0008_Password.png in Resources */,
@@ -2143,6 +2186,7 @@
 				46E28EBD1F70BB7A0019CE74 /* charity_0030_Add-to-my-charities.png in Resources */,
 				46E2901F1F70BB7B0019CE74 /* history_0014_9_41-AM.png in Resources */,
 				46E28FC71F70BB7B0019CE74 /* payment_0031_CVV.png in Resources */,
+				86E1A92F2110FADB00465FA1 /* SettingsData.json in Resources */,
 				86AF18D5210830FE00A28AD3 /* Nanami-LightOblique.otf in Resources */,
 				46E28F231F70BB7A0019CE74 /* list_0046_inner-bevel.png in Resources */,
 				46E290261F70BB7B0019CE74 /* history_0021_bg.png in Resources */,
@@ -2183,6 +2227,7 @@
 				46E28EBC1F70BB7A0019CE74 /* charity_0029_mask.png in Resources */,
 				46E28F281F70BB7A0019CE74 /* load_0001_Surprise-and-change-the-world!.png in Resources */,
 				46E28EF81F70BB7A0019CE74 /* list_0003_Objeto-inteligente-vectorial-copia.png in Resources */,
+				865EBD622114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.xib in Resources */,
 				46E28F181F70BB7A0019CE74 /* list_0035_Country.png in Resources */,
 				46E28F8D1F70BB7A0019CE74 /* message_0025_small.png in Resources */,
 				46E28FCF1F70BB7B0019CE74 /* payment_0039_bg.png in Resources */,
@@ -2364,9 +2409,12 @@
 			files = (
 				86AF18ED2108311E00A28AD3 /* RecordVideoViewController.swift in Sources */,
 				46FCB1F11F8D716900A65499 /* Swift+Gif.swift in Sources */,
+				86521CFB21138DC600AC036F /* SettingsItemTableViewCell.swift in Sources */,
 				86AF18EC2108311E00A28AD3 /* MenuViewController.swift in Sources */,
+				868DDE3D2109845400576C8A /* SettingsSectionModal.swift in Sources */,
 				86AF18E52108311500A28AD3 /* RequestTableViewCell.swift in Sources */,
 				86AF18B5210830DF00A28AD3 /* RequestModal.swift in Sources */,
+				868DDE3F2109847000576C8A /* SettingsRowModal.swift in Sources */,
 				86AF18E12108310C00A28AD3 /* NiceButton.swift in Sources */,
 				46E28CC31F70B8510019CE74 /* ViewController.swift in Sources */,
 				86AF18E62108311500A28AD3 /* SettingsProfileTableViewCell.swift in Sources */,
@@ -2374,7 +2422,11 @@
 				4685FCA31F943AD60032CA66 /* Login.swift in Sources */,
 				86AF18EF2108311E00A28AD3 /* SettingsViewController.swift in Sources */,
 				86AF18EE2108311E00A28AD3 /* RequestsViewController.swift in Sources */,
+				86F369BC211929FF008D3603 /* HeaderView.swift in Sources */,
+				868DDE412109871E00576C8A /* SettingsSectionTableViewCell.swift in Sources */,
 				86AF18E02108310C00A28AD3 /* Helper.swift in Sources */,
+				865EBD612114DDF30052E054 /* SettingsCharityPreferenceTableViewCell.swift in Sources */,
+				86ED7155210D60F300141A73 /* UIColor+AppColors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
